@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height:100%
+}
+@font-face {
+  font-family: "佛系";
+  src: url("佛系.ttf");
+}
+@font-face {
+  font-family: "kui";
+  src: url("kui.ttf");
+}
+body{
+  background-color: #222;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #eee;
+  font-family: 'kui','佛系';
+  position: relative;
+  user-select: none;
+  touch-action: none;
+  user-zoom: none;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 50px;
+}
+#木鱼{
+  cursor: pointer;
+  transition:transform 50ms;
+  border-radius: 50%;
+}
+#bgm{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+#note{
+  font-size: 40px;
+}
